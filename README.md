@@ -70,6 +70,7 @@ pnpm install && pnpm run dev #install and gnerate
 
 For more details on how to run, deploy, and navigate this project, read the wiki: [Learn Taino GitHub Wiki](https://github.com/itskarelleh/taino-language-app/wiki)
 
+For additional details about this whole project, feel free to browse our Notion page: [TLA Phase 3 - Dev Notion Page](https://www.notion.so/tech-fleet-community-dao/Development-729b6c4c865e4a329823b392a0738bf1)
 ## Credits
 
 ### Phase 1
