@@ -75,8 +75,8 @@ For additional details about this whole project, feel free to browse our Notion 
 
 ### Phase 1
 - Okino Kamali Leiba
-- Paulina Kottlewska Aaron Brinckerhoff
-- Aaron Brinckerhoff Harrison Hughes
+- Paulina Kottlewska
+- Aaron Brinckerhoff
 - Harrison Hughes
 
 ### Phase 3
