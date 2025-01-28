@@ -12,6 +12,7 @@ export class LessonsController {
 
     @Get('/:id')
     async getLessonById(@Param('id') id: string) {
+        
         return this.lessonService.getLessonById(id);
     }
 }

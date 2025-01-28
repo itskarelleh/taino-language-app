@@ -10,6 +10,7 @@ exports.AppModule = void 0;
 const common_1 = require("@nestjs/common");
 const config_1 = require("@nestjs/config");
 const app_controller_1 = require("./app.controller");
+const cache_manager_1 = require("@nestjs/cache-manager");
 const app_service_1 = require("./app.service");
 const prisma_service_1 = require("./prisma/prisma.service");
 const lessons_controller_1 = require("./lessons/lessons.controller");
@@ -20,6 +21,9 @@ exports.AppModule = AppModule;
 exports.AppModule = AppModule = __decorate([
     (0, common_1.Module)({
         imports: [
+            cache_manager_1.CacheModule.register({
+                max: 100,
+            }),
             config_1.ConfigModule.forRoot({
                 envFilePath: ['.env', '.env.development', '.env.production'],
                 isGlobal: true,
