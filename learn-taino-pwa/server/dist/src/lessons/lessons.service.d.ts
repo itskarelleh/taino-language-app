@@ -1,17 +1,10 @@
 import { PrismaService } from 'src/prisma/prisma.service';
+import { Cache } from 'cache-manager';
 export declare class LessonsService {
     private prisma;
-    constructor(prisma: PrismaService);
-    getLessonById(id: string): Promise<{
-        id: string;
-        title: string;
-        description: string | null;
-        thumbnail: string | null;
-        introduction: import("@prisma/client/runtime/library").JsonValue | null;
-        activities: import("@prisma/client/runtime/library").JsonValue | null;
-        created_at: Date;
-        updated_at: Date;
-    }>;
+    private cacheManager;
+    constructor(prisma: PrismaService, cacheManager: Cache);
+    getLessonById(id: string): Promise<unknown>;
     getLessons(): Promise<{
         id: string;
         title: string;
