@@ -4,9 +4,9 @@ Taino Language App is a language-learning app that helps Taino descendants and c
 ![taino-language-app](https://github.com/user-attachments/assets/3f942bc5-f779-4efb-9a44-47ff3251894e)
 
 ## Background
-The Taíno, the Indigenous people of the Caribbean and parts of the southern U.S. were the first Native Americans to meet Europeans in 1492. Though long thought extinct after colonization, they survived - many Caribbean people today have Taíno ancestry, and efforts are ongoing to preserve their culture and language.
+The Taíno, the Indigenous people of the Caribbean and parts of the southern U.S., were the first Native Americans to meet Europeans in 1492. Though long thought extinct after colonization, they survived - many Caribbean people today have Taíno ancestry, and efforts are ongoing to preserve their culture and language.
 
-This project aims to aid in the revitalization of the Taíno culture by giving its descendants, as well as language and culture enthusiasts, by providing an easy learning experience for all ages and education levels.
+This project aims to aid the revitalization of the Taíno culture by giving its descendants, as well as language and culture enthusiasts, an easy learning experience for all ages and education levels.
 
 This mono repository contains two projects for the Taino Language App Project
 - learn-taino-pwa: The progressive web app for Learn Taino built with Expo, React Native, Nest.js
